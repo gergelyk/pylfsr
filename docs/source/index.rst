@@ -7,11 +7,12 @@ Welcome to lfsr's documentation!
 =====================================
 
 Linear Feedback Shift Register toolkit.
-This package includes following modules:
+This package includes following components:
 
 .. toctree::
    :maxdepth: 2
 
+   lfsr
    db
 
 
