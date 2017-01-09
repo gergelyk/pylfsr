@@ -11,7 +11,7 @@ setup(
     version = version,
     description = 'Linear Feedback Shift Register toolkit.',
     author = 'Grzegorz Krason',
-    author_email = 'grzegorz@krason.biz',
+    author_email = 'grzegorz@krason.me',
     url = 'https://github.com/gergelyk/pylfsr',
     download_url = 'https://github.com/gergelyk/pylfsr/tarball/' + version,
     license = 'MIT',
