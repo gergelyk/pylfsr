@@ -3,8 +3,6 @@ lfsr
 
 Linear Feedback Shift Register toolkit.
 
-* **db** - Database of precalculated values.
-
 `Documentation <http://pylfsr.readthedocs.io/>`_
 
 `Source code <https://github.com/gergelyk/pylfsr/>`_

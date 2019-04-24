@@ -3,7 +3,7 @@ Linear Feedback Shift Register Toolkit
 
 **lfsr_if** `(poly, init=1)`
 
-Linear Feedback Shift Register with internal feedback.
+Linear Feedback Shift Register with internal feedback (Galois implementation).
 
 Example (visualization):
 
@@ -22,7 +22,7 @@ Example (visualization):
 
 ::
 
-    cycle state 
+    cycle state
       0    001
       1    110
       2    011
@@ -30,7 +30,7 @@ Example (visualization):
       4    101
       5    100
       6    010
-  
+
 Example (code):
 
 >>> n = 3
@@ -49,13 +49,13 @@ Example (code):
 7 1
 8 6
 9 3
-  
+
 Reference: http://www.eng.auburn.edu/~strouce/class/elec6250/LFSRs.pdf
 
 
 **lfsr_ef** `(poly, init=1)`
 
-Linear Feedback Shift Register with external feedback.
+Linear Feedback Shift Register with external feedback (Fibonacci implementation).
 
 Implements LFSR counter for many use cases. For instance for certain polynomial and init, LSB of the output can be considered as pseudo-random sequence.
 
@@ -76,7 +76,7 @@ Example (visualization):
 
 ::
 
-    cycle state 
+    cycle state
       0    001
       1    100
       2    110
